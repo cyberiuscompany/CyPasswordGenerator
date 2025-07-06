@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Generador Contraseñas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main-container">
+    <div class="left-panel">
+      <h1>Generador de Contraseñas</h1>
+
+      <div class="password-panel">
+        <input type="text" id="password" readonly placeholder="Tu contraseña aparecerá aquí" />
+        <button id="copyBtn" title="Copiar">Copiar</button>
+      </div>
+
+      <div class="entropy">
+        Entropía: <span id="entropyValue">0</span> bits
+        <div class="entropy-bar"><div id="entropyFill"></div></div>
+      </div>
+
+      <div class="settings">
+        <label>Longitud:
+          <input type="range" id="length" min="4" max="64" value="20" />
+          <span id="lengthValue">20</span>
+        </label>
+        <label><input type="checkbox" id="uppercase" checked /> Mayúsculas (A-Z)</label>
+        <label><input type="checkbox" id="lowercase" checked /> Minúsculas (a-z)</label>
+        <label><input type="checkbox" id="numbers" checked /> Números (0-9)</label>
+        <label><input type="checkbox" id="symbols" checked /> Símbolos (!@#...)</label>
+        <label><input type="checkbox" id="noAmbiguous" /> Excluir caracteres ambiguos</label>
+        <label><input type="checkbox" id="noRepeats" /> Evitar caracteres repetidos seguidos</label>
+        <label><input type="checkbox" id="ultraSecure" /> Modo ultra seguro (SHA256 RNG)</label>
+      </div>
+
+      <button id="generateBtn">Generar</button>
+      <div id="alertBox" class="hidden">¡Contraseña copiada!</div>
+
+      <div class="crack-time">
+        Estimación de crackeo: <span id="crackEstimate">0 segundos</span>
+      </div>
+    </div>
+
+    <div class="right-panel">
+      <canvas id="radarCanvas" width="300" height="300"></canvas>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <footer>
+  <div class="footer-socials" style="display: flex; flex-direction: row; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 1rem;">
+
+    <!-- GitHub -->
+    <div class="social-item" style="display: flex; align-items: center; gap: 0.5rem;">
+      <i class="fab fa-github" style="font-size: 1.2rem;"></i>
+      <a href="https://github.com/cyberiuscompany" target="_blank" style="padding: 0.4rem 0.8rem; background-color: #333; color: white; border-radius: 5px; text-decoration: none;">
+        GitHub
+      </a>
+    </div>
+
+    <!-- YouTube -->
+    <div class="social-item" style="display: flex; align-items: center; gap: 0.5rem;">
+      <i class="fab fa-youtube" style="font-size: 1.2rem; color: red;"></i>
+      <a href="https://www.youtube.com/@CyberiusCompany" target="_blank" style="padding: 0.4rem 0.8rem; background-color: red; color: white; border-radius: 5px; text-decoration: none;">
+        YouTube
+      </a>
+    </div>
+
+    <!-- PayPal -->
+    <div class="social-item" style="display: flex; align-items: center; gap: 0.5rem;">
+      <i class="fab fa-paypal" style="font-size: 1.2rem; color: #0070ba;"></i>
+      <a href="https://paypal.me/CyberiusCompany" target="_blank" style="padding: 0.4rem 0.8rem; background-color: #0070ba; color: white; border-radius: 5px; text-decoration: none;">
+        PayPal
+      </a>
+    </div>
+
+    <!-- Discord -->
+    <div class="social-item" style="display: flex; align-items: center; gap: 0.5rem;">
+      <i class="fab fa-discord" style="font-size: 1.2rem; color: #5865F2;"></i>
+      <a href="https://disboard.org/server/1299310806617292922"
+        target="_blank"
+        style="padding: 0.4rem 0.8rem; background-color: #5865F2; color: white; border-radius: 5px; text-decoration: none;">
+        Discord
+      </a>
+    </div>
+  </div>
+
+  <div style="text-align: center; font-size: 0.9rem; color: #888;">
+    &copy; 2025 Cyberius Company. Todos los derechos reservados.
+  </div>
+</footer>
+</body>
+</html>

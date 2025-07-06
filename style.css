@@ -1,0 +1,131 @@
+body {
+  background: #2d3037;
+  font-family: 'Courier New', monospace;
+  color: #f1f1f1;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}
+
+.left-panel {
+  max-width: 450px;
+  padding: 20px;
+}
+
+.right-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #83f1e8;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.password-panel {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#password {
+  flex: 1;
+  padding: 10px;
+  background: #23272f;
+  color: #83f1e8;
+  border: none;
+  font-size: 1.1em;
+  border-radius: 8px 0 0 8px;
+}
+
+#copyBtn {
+  background: #83f1e8;
+  border: none;
+  color: #2d3037;
+  padding: 0 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0 8px 8px 0;
+}
+
+.entropy, .crack-time {
+  margin: 15px 0;
+  font-size: 0.95em;
+}
+
+.entropy-bar {
+  background: #555;
+  height: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+#entropyFill {
+  height: 100%;
+  width: 0%;
+  background: limegreen;
+  transition: width 0.3s;
+}
+
+.settings label {
+  display: block;
+  margin: 8px 0;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+#lengthValue {
+  float: right;
+  font-weight: bold;
+}
+
+#generateBtn {
+  width: 100%;
+  padding: 12px;
+  background: #83f1e8;
+  border: none;
+  color: #2d3037;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#alertBox {
+  margin-top: 12px;
+  padding: 10px;
+  background: #2d3037;
+  color: #83f1e8;
+  text-align: center;
+  border-radius: 6px;
+  animation: fadeInOut 2s;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+footer {
+    display: block;
+    unicode-bidi: isolate;
+    background-color: #23272f;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
