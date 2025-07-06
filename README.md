@@ -41,12 +41,6 @@ Esplicación que hace la herramienta.
   <img src="Contraseña Generada v2.png" alt="Foto 2" width="500"/>
 </p>
 
-## Descripción
-
-**NOMBRE-HERRAMIENTA** es una herramienta.....RELLENAR. 
-
-Diseñada con un enfoque de ciberseguridad para......RELLENAR.
-
 ## 🚀 Funcionalidades principales
 
 - ✅ Generación aleatoria segura (SHA256 RNG opcional)
@@ -90,6 +84,6 @@ Diseñada con un enfoque de ciberseguridad para......RELLENAR.
 
 ```bash
 Añadir el fichero index.html en una navegador Web o Clickearlo 2 veces.
-GithubPages: http://
+GithubPages: https://cyberiuscompany.github.io/CyPasswordGenerator/
 ```
 
