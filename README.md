@@ -10,9 +10,7 @@
 # CyPasswordGenerator
 Esta una herramienta pensada para crear contraseñas ultra seguras, visualmente evaluadas y listas para usar en entornos que requieren máxima protección digital.
 
-Esplicación que hace la herramienta.
-
-- GitHub: https://cyberiuscompany.github.io/NOMBRE-HERRAMIENT
+- GitHub: https://cyberiuscompany.github.io/CyPasswordGenerator/
 ---
 
 <p align="center">
