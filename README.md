@@ -81,7 +81,7 @@ Esta una herramienta pensada para crear contraseñas ultra seguras, visualmente 
 ## ⚙️ 1.1 Instalación y uso
 
 ```bash
-Añadir el fichero index.html en una navegador Web o Clickearlo 2 veces.
+Añadir el fichero index.html en un navegador Web o Clickearlo 2 veces.
 GithubPages: https://cyberiuscompany.github.io/CyPasswordGenerator/
 ```
 
