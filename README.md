@@ -22,7 +22,7 @@ Esta una herramienta pensada para crear contraseñas ultra seguras, visualmente 
 ## 🎥 Demostración
 
 <p align="center">
-  <img src="docs/Demo.gif" width="1200" alt="Demostración de CyberiusUnzipCracker">
+  <img src="CyPasswordGenerator.gif" width="1200" alt="Demostración de CyberiusUnzipCracker">
 </p>
 
 ---
