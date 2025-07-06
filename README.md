@@ -7,13 +7,12 @@
 ![Uso](https://img.shields.io/badge/uso-solo%20legal-important)
 ![Python](https://img.shields.io/badge/python-3.7%2B-yellow)
 
-# Plantilla
-Este es la plantilla que utilizo para la creación de mis proyectos/herramientas de ciberseguridad
+# CyPasswordGenerator
+Esta una herramienta pensada para crear contraseñas ultra seguras, visualmente evaluadas y listas para usar en entornos que requieren máxima protección digital.
 
 Esplicación que hace la herramienta.
 
-- GitHub Pages si la herramienta tiene: https://cyberiuscompany.github.io/NOMBRE-HERRAMIENTA
-- DeepWiki de la herramienta: https://deepwiki.com/RELLENAR+INDEXAR
+- GitHub: https://cyberiuscompany.github.io/NOMBRE-HERRAMIENT
 ---
 
 <p align="center">
@@ -34,19 +33,13 @@ Esplicación que hace la herramienta.
 
 <h2 align="center">Foto 1</h2>
 <p align="center">
-  <img src="Foto1" alt="Foto 1" width="500"/>
+  <img src="Contraseña Generada v1.png" alt="Foto 1" width="500"/>
 </p>
 
 <h2 align="center">Foto 2</h2>
 <p align="center">
-  <img src="Foto2" alt="Foto 2" width="500"/>
+  <img src="Contraseña Generada v2.png" alt="Foto 2" width="500"/>
 </p>
-
-<h2 align="center">Foto 3</h2>
-<p align="center">
-  <img src="Foto3" alt="Foto 3" width="500"/>
-</p>
-
 
 ## Descripción
 
@@ -56,22 +49,28 @@ Diseñada con un enfoque de ciberseguridad para......RELLENAR.
 
 ## 🚀 Funcionalidades principales
 
-- RELLENAR.
-- RELLENAR.
-- RELLENAR.
+- ✅ Generación aleatoria segura (SHA256 RNG opcional)
+- ✅ Evaluación de entropía en tiempo real
+- ✅ Estimación del tiempo de crackeo (Crack Time)
+- ✅ Radar de métricas visuales: Longitud, Entropía, Variedad, Fuerza Bruta y Crack Time
+- ✅ Personalización completa:
+  - Mayúsculas, minúsculas, números, símbolos
+  - Exclusión de caracteres ambiguos
+  - Evitar caracteres repetidos
+- ✅ Botón para copiar con un clic
 
 ## 🧰 Tecnologías utilizadas
 
-- RELLENAR.
-- RELLENAR.
-- RELLENAR.
+- `HTML5` + `CSS3` (Dark Mode moderno)
+- `JavaScript` puro (sin dependencias)
+- Cálculo de entropía y fuerza usando estándares criptográficos
 
 ## 📁 Estructura del proyecto
 
 ```bash
-├── fichero.py # Función Principal
-├── fichero.js # Función Principal
-├── fichero.html # Función Principal
+├── index.html 
+├── script.js 
+├── style.html 
 ```
 ---
 
@@ -87,37 +86,10 @@ Diseñada con un enfoque de ciberseguridad para......RELLENAR.
 
 ---
 
-## ⚙️ 1.1 Instalación básica con clonado 🪟 Windows
+## ⚙️ 1.1 Instalación y uso
 
 ```bash
-git clone..........
-cd NOMBRE-HERRAMIENTA
-python -m venv venv (No es obligatorio este comando)
-.\venv\Scripts\activate (No es obligatorio este comando)
-pip install -r requirements.txt
-python NOMBRE-HERRAMIENTA
-```
-
-## ⚙️ 1.2 Instalación básica con clonado 🐧 Linux / macOS
-
-```bash
-git clone..........
-cd NOMBRE-HERRAMIENTA
-python3 -m venv venv (No es obligatorio este comando)
-source venv/bin/activate (No es obligatorio este comando)
-pip install -r requirements.txt
-python3 NOMBRE-HERRAMIENTA
-```
-
-## ⚙️ 2 Instalación como si fuese paquete profesional
-
-```bash
-git clone..........
-cd NOMBRE-HERRAMIENTA
-python3 -m venv venv (No es obligatorio este comando)
-source venv/bin/activate (No es obligatorio este comando)
-pip install -r requirements.txt
-pip install .
-NOMBRE-HERRAMIENTA
+Añadir el fichero index.html en una navegador Web o Clickearlo 2 veces.
+GithubPages: http://
 ```
 
